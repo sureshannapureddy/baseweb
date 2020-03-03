@@ -3,7 +3,7 @@ category: Introduction
 page: Contributing
 ---
 
-# Contributing to baseui
+# Contributing to baseweb
 
 ## Getting started
 
@@ -15,7 +15,7 @@ cd baseweb
 yarn
 ```
 
-2. To start a website to develop against, run `yarn documentation:dev`.
+2. To start a website to develop against, run `yarn documentation:dev` or `yarn documentation:dev:watch` to continously build and update the relevant pages.
 3. To unit test your changes run `yarn test` or `yarn test --watch` to continuously run the relevant tests.
 
 Do you miss a component? Would you like to extend the featureset of a component?
